@@ -1,1 +1,5 @@
-Bài tập C của thầy Phan Huy Cường - CTU K47
+Bài tập Lập trình căn bản A của thầy Phan Huy Cường.
+
+Ngôn ngữ lập trình C
+
+Làm bởi Trần Thanh Duy - Kỹ thuật phần mềm - K47 CTU
