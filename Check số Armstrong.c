@@ -26,3 +26,32 @@ printf("%d\n", is_Armstrong(654));
 0
 printf("%d\n", is_Armstrong(371));
 1
+  
+  
+==================================================================================================================================================================================
+ 
+#include <stdio.h>
+
+int is_Armstrong (int n)
+{
+    int temp = n, phanconlai, ketqua = 0;
+    while(temp != 0)
+    {
+        phanconlai = temp%10;
+        ketqua = ketqua + phanconlai*phanconlai*phanconlai;
+        temp=temp/10;
+    }
+    if (ketqua == n)
+    {
+        return 1;
+    }else
+    {
+        return 0;
+    }
+
+}
+
+
+
+
+
